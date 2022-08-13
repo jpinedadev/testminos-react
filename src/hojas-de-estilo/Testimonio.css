@@ -36,3 +36,17 @@
     font-size:1.1rem;
     text-align: justify;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .contenedor-testimonio{
+        display:flex;
+        flex-direction:column;
+        height: 100%;
+        width: auto;
+        margin:auto;
+    }
+    .contenedor-texto-testimonio{
+        padding:auto;
+    }
+}
